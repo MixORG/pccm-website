@@ -8,25 +8,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://www.dafontfree.net/embed/bW90dGVyLWNvcnB1cy1zdGQtY29uZGVuc2VkJmRhdGEvNDgvbS80NjAyMy9Nb3R0ZXJDb3JwdXNTdGQtQ29uZGVuc2VkLm90Zg"
+    <link
+        href="https://www.dafontfree.net/embed/bW90dGVyLWNvcnB1cy1zdGQtY29uZGVuc2VkJmRhdGEvNDgvbS80NjAyMy9Nb3R0ZXJDb3JwdXNTdGQtQ29uZGVuc2VkLm90Zg"
         rel="stylesheet" type="text/css" />
-<style>
-    .stats-section .card-title {
-    background-color: transparent;
-    color: #F05B8D;
-    font-family: 'motter_corpus_stdcondensed', sans-serif; /* Added fallback font */
-    font-weight: normal;
-    font-style: normal;
-    font-size: 22px;
-}
-@font-face {
-    font-family: 'motter_corpus_stdcondensed';
-    src: url('mottercorpusstd-condensed-webfont.woff2') format('woff2'),
-         url('mottercorpusstd-condensed-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-</style>
+    <style>
+        .stats-section .card-title {
+            background-color: transparent;
+            color: #F05B8D;
+            font-family: 'motter_corpus_stdcondensed', sans-serif;
+            /* Added fallback font */
+            font-weight: normal;
+            font-style: normal;
+            font-size: 22px;
+        }
+
+        @font-face {
+            font-family: 'motter_corpus_stdcondensed';
+            src: url('mottercorpusstd-condensed-webfont.woff2') format('woff2'),
+                url('mottercorpusstd-condensed-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .carousel-item img{
+            height: 425px;
+            object-fit: fill;
+        }
+    </style>
 </head>
 
 <body>
@@ -101,6 +108,30 @@
 
         </div>
     </div>
+    <!-----------------------------------------//aboutus//----------------------------------------------->
+    <div class="container-fluid p-0 mb-3 mt-3">
+        <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide-1.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide-2.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+  </div>
+
+
     <div class="container heading1 col-lg-6 ps-5 pe-5 mt-1 mb-4">
         <div class="before-line"></div>
         <h2>Our Work</h2>
@@ -108,64 +139,64 @@
     </div>
     <!--------------------------------------------------//heading-section//------------------------------------>
     <div class="container-fluid work-section p-0 m-0">
-    <div class="container work-section p-5 ps-0 pe-0 d-flex flex-row">
-        <div class="col-lg-3 m-auto mb-0">
-            <div class="card m-auto mb-0">
-                <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
-                <div class="card-body text-center bg-white">
-                    <h5 class="card-title p-3">Awareness talks</h5>
+        <div class="container work-section p-5 ps-0 pe-0 d-flex flex-row">
+            <div class="col-lg-3 m-auto mb-0">
+                <div class="card m-auto mb-0">
+                    <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
+                    <div class="card-body text-center bg-white">
+                        <h5 class="card-title p-3">Awareness talks</h5>
 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 m-auto mb-0 ">
+                <div class="card m-auto mb-0">
+                    <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
+                    <div class="card-body text-center bg-white">
+                        <h5 class="card-title p-3">Screening camps</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 m-auto mb-0">
+                <div class="card m-auto mb-0">
+                    <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
+                    <div class="card-body text-center bg-white">
+                        <h5 class="card-title p-3">Support group events</h5>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 m-auto mb-0 ">
-            <div class="card m-auto mb-0">
-                <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
-                <div class="card-body text-center bg-white">
-                    <h5 class="card-title p-3">Screening camps</h5>
+        <div class="container work-section p-0 ps-0 pe-0 mt-0 d-flex flex-row">
+            <div class="col-lg-3 m-auto mb-3">
+                <div class="card m-auto">
+                    <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
+                    <div class="card-body text-center bg-white">
+                        <h5 class="card-title p-3">Counselling</h5>
 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 m-auto mb-3">
+                <div class="card m-auto">
+                    <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
+                    <div class="card-body text-center bg-white">
+                        <h5 class="card-title p-3">Food banks</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 m-auto mb-3">
+                <div class="card m-auto">
+                    <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
+                    <div class="card-body text-center bg-white">
+                        <h5 class="card-title p-3">Lymphodema clinic</h5>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 m-auto mb-0">
-            <div class="card m-auto mb-0">
-                <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
-                <div class="card-body text-center bg-white">
-                    <h5 class="card-title p-3">Support group events</h5>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container work-section p-0 ps-0 pe-0 mt-0 d-flex flex-row">
-        <div class="col-lg-3 m-auto mb-3">
-            <div class="card m-auto">
-                <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
-                <div class="card-body text-center bg-white">
-                    <h5 class="card-title p-3">Counselling</h5>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 m-auto mb-3">
-            <div class="card m-auto">
-                <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
-                <div class="card-body text-center bg-white">
-                    <h5 class="card-title p-3">Food banks</h5>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 m-auto mb-3">
-            <div class="card m-auto">
-                <img src="images/1.png" class="card-img-top p-3 pb-0" alt="card-group-image">
-                <div class="card-body text-center bg-white">
-                    <h5 class="card-title p-3">Lymphodema clinic</h5>
-
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
     <!-------------------------------------------//our-work//----------------------------------------------->
     <!-------------------------------------------pccm-statistics----------------------------------------------->
